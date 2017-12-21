@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Quiz</title>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        fieldset {
+            border: solid 2px #DDD !important;
+            padding: 0 10px 10px 10px;
+            border-bottom: none;
+        }
+        .border-2-left{
+            border-left: solid 1px #DDD !important;
+        }
+        .border-2-right{
+            border-right: solid 2px #DDD !important;
+        }
+        legend{
+            width: auto !important;
+            border: none;
+            font-size: 14px;
+        }
+        .quiz{
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand">ПРОЕКТ ИКС</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <button class="btn btn-outline-secondary ml-2 my-sm-0" type="submit">Новый</button>
+            <button class="btn btn-outline-secondary ml-2 my-sm-0" type="submit">Все опросы</button>
+            <button class="btn btn-outline-danger ml-2 my-sm-0" type="submit">Выход</button>
+        </ul>
+    </div>
+</nav>
+
+<div class="container justify-content-center">
+    <h1 class="quiz text-center">Название опроса</h1>
+    <div class="d-flex mt-4 flex-column justify-content-center border border-secondary h-50">
+        <h4 class="my-3 text-center">Тут должен быть текст вопроса, на который надо ответить</h4>
+        <div class="border border-secondary">
+        <div class="row mt-5 justify-content-between">
+            <button class="ml-5 col-5" style="height: 250px">Dislike</button>
+            <button class="mr-5 col-5" style="height: 250px">Like</button>
+        </div>
+        <div class="my-5 text-center">Время: 00:00:10</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
